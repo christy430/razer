@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    background:#000;
+    color:#fff;
+    font-family: 'Montserrat', sans-serif;
+}
+.header{
+    position: fixed;
+    z-index: 1;
+    width: 1121px;
+     display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center; 
+    padding: 0px 200px;
+    background-color: #000;
+    
+}
+
+.features{
+    
+    width:100%;
+    height:100vh;
+    background-image:url(images/razer-blackshark-v2-hyperspeed-homepage-desktop2x.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-top: 10% ;
+    padding-bottom: 10%;
+    cursor: pointer;
+   
+}
+.features1{
+    
+    width:100%;
+    height:100vh;
+    background-image:url(images/back-to-school-homepage-desktop2x.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.features2{
+    
+    width:100%;
+    height:100vh;
+    background-image:url(images/razer-blade-14-2023-homepage-desktop2x.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.features3{
+    
+    width:100%;
+    height:100vh;
+    background-image:url(images/kishi-v2-pro-for-android-b-950x580-desktop.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    cursor: pointer;
+}
+.features4{
+    
+    width:100%;
+    height:100vh;
+    background-image:url(images/razer-kitsune-950x580-desktop.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.nav,.button{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.options{
+    text-decoration: none;
+     font-size: 17px;
+    color:#fff;
+    margin-right: 50px;
+  
+}
+
+
+.row{
+    justify-content: center;
+}
+.h2{
+    font-size: 60px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #fff;
+}
+
+.h5,.h4{
+    font-size: 1.75rem;
+    text-decoration: none;
+    font-weight: 400;
+    color: #fff;
+}
+.h4:hover{
+    text-decoration: underline;
+}
+
+
+.footer{
+    padding: 50px 15% 10px;
+    border-top: 6px solid #333;
+    color:#777;
+}
+
+
+.footer .col{
+    flex-basis:25% ;
+    flex-grow: 1;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .col a{
+    display:block;
+    text-decoration: none;
+    color:#777;
+    font-size:14px;
+    margin-bottom: 10px;
+
+}
+
+.footer .row{
+    align-items: flex-start;
+    padding: 10px 0;
+    display: flex;
+}
+
+.footer .language{
+    color:white;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+.copyright{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
